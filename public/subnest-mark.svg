@@ -1,0 +1,13 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SubNest mark">
+  <defs>
+    <linearGradient id="subnest-orange" x1="12" y1="12" x2="148" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9A26"/>
+      <stop offset="0.55" stop-color="#FF7417"/>
+      <stop offset="1" stop-color="#F94A3C"/>
+    </linearGradient>
+  </defs>
+  <path d="M27 10H83V85H27C12.1 85 0 72.9 0 58V37C0 22.1 12.1 10 27 10Z" fill="url(#subnest-orange)"/>
+  <path d="M83 10H123C143.4 10 160 26.6 160 47C160 67.4 143.4 84 123 84H105C92.8 84 83 74.2 83 62V10Z" fill="url(#subnest-orange)"/>
+  <path d="M0 117C0 98.8 14.8 84 33 84H62C73.6 84 83 93.4 83 105V160H36C16.1 160 0 143.9 0 124V117Z" fill="url(#subnest-orange)"/>
+  <path d="M83 76H128C145.7 76 160 90.3 160 108V128C160 145.7 145.7 160 128 160H83V76Z" fill="url(#subnest-orange)"/>
+</svg>

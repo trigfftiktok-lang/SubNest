@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#20104f" />
+    <meta name="description" content="SubNest helps creators turn social actions into meaningful audience growth." />
+    <title>SubNest — Social unlocks for creators</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="/src/overrides.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="site-header" id="home">
+        <div class="container nav-wrap">
+          <a class="brand" href="#home" aria-label="SubNest home">
+            <span class="brand-mark"><img src="/subnest-mark.svg" alt="" /></span>
+            <span class="brand-name">Sub<span>Nest</span></span>
+          </a>
+          <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+          <nav class="main-nav" aria-label="Primary navigation">
+            <a class="active" href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a class="button button-small button-light" href="#builder">Get started <span aria-hidden="true">↗</span></a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-section">
+          <div class="hero-orb orb-one"></div>
+          <div class="hero-orb orb-two"></div>
+          <div class="hero-dots" aria-hidden="true"></div>
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> The creator growth layer</div>
+              <h1>Turn one click into a <em>community.</em></h1>
+              <p class="hero-lede">Give your audience a reason to connect before they unlock your content. SubNest makes social unlocks feel simple, transparent and worth the tap.</p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="#builder">Create an unlock link <span aria-hidden="true">↗</span></a>
+                <a class="text-link text-link-light" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
+              </div>
+              <div class="hero-proof"><span class="avatar-stack"><i>J</i><i>M</i><i>R</i><i>+</i></span><span><strong>2,400+</strong> creators growing with SubNest</span></div>
+            </div>
+
+            <div class="hero-visual reveal reveal-delay" id="how-it-works">
+              <div class="visual-glow"></div>
+              <div class="floating-note note-top"><span class="mini-icon icon-spark">✦</span><span><strong>+28%</strong><small>engagement lift</small></span></div>
+              <div class="phone-card">
+                <div class="phone-topbar"><span>9:41</span><span class="phone-status"><i></i><i></i><i></i></span></div>
+                <div class="phone-brand"><span class="phone-brand-mark"><img src="/subnest-mark.svg" alt="" /></span><span>SubNest</span></div>
+                <div class="phone-content">
+                  <div class="phone-label">UNLOCK LINK</div>
+                  <h3>Join the nest to unlock</h3>
+                  <p>Complete the actions below, then your link is ready.</p>
+                  <div class="phone-action done"><span class="platform youtube">▶</span><span>Subscribe on YouTube</span><b>✓</b></div>
+                  <div class="phone-action"><span class="platform instagram">◎</span><span>Follow on Instagram</span><b>›</b></div>
+                  <div class="phone-action"><span class="platform telegram">➤</span><span>Join the Telegram</span><b>›</b></div>
+                  <div class="phone-progress"><span><i></i></span><small>1 of 3 actions complete</small></div>
+                  <button class="phone-unlock" id="phone-unlock-button" type="button">Unlock my link <span>→</span></button>
+                </div>
+                <div class="phone-foot"><span>Made for creators</span><span>•••</span></div>
+              </div>
+              <div class="floating-note note-bottom"><span class="mini-icon icon-check">✓</span><span><strong>Ad-free</strong><small>always feels better</small></span></div>
+            </div>
+          </div>
+          <div class="hero-wave" aria-hidden="true"></div>
+        </section>
+
+        <section class="builder-section" id="builder">
+          <div class="container builder-layout">
+            <div class="builder-art reveal" aria-hidden="true">
+              <div class="art-blob art-blob-yellow"></div><div class="art-blob art-blob-blue"></div>
+              <div class="art-phone"><div class="art-phone-top"><span></span><span></span><span></span></div><div class="art-logo"><img src="/subnest-mark.svg" alt="" /></div><div class="art-line art-line-large"></div><div class="art-line"></div><div class="art-line art-line-short"></div><div class="art-button">Continue <span>→</span></div></div>
+              <div class="art-star">✦</div>
+            </div>
+            <div class="builder-card reveal reveal-delay">
+              <div class="builder-card-head builder-card-head-centered"><div><div class="builder-brandline"><span class="builder-brand-mark"><img src="/subnest-mark.svg" alt="" /></span><span>SubNest link builder</span></div><h3>Create Your Link</h3></div><span class="step-count">Step 1 <b>/ 2</b></span></div>
+              <div class="action-pills" role="group" aria-label="Social actions">
+                <button class="action-pill selected" type="button" data-action="Subscribe on YouTube">− Subscribe</button>
+                <button class="action-pill" type="button" data-action="Subscribe on another channel">+ 2nd subscribe</button>
+                <button class="action-pill" type="button" data-action="Like and subscribe on YouTube">+ Like &amp; subscribe</button>
+                <button class="action-pill" type="button" data-action="Subscribe and hit bell">+ Sub &amp; hit bell</button>
+                <button class="action-pill" type="button" data-action="Like and comment">+ Like &amp; comment</button>
+                <button class="action-pill" type="button" data-action="Like video">+ Like video</button>
+                <button class="action-pill" type="button" data-action="Follow on Instagram">+ Follow Instagram</button>
+                <button class="action-pill" type="button" data-action="Follow on Facebook">+ Follow Facebook</button>
+                <button class="action-pill" type="button" data-action="Follow on Twitter">+ Follow Twitter</button>
+                <button class="action-pill" type="button" data-action="Join Telegram">+ Join Telegram</button>
+                <button class="action-pill" type="button" data-action="Join Discord">+ Join Discord</button>
+                <button class="action-pill" type="button" data-action="Join Telegram channel">+ Join Telegram</button>
+              </div>
+              <form class="link-form screenshot-builder-form" id="link-form" novalidate>
+                <label class="sr-only" for="source-url">Social profile or video URL</label>
+                <div class="builder-input-wrap"><span class="input-icon youtube">▶</span><input id="source-url" type="url" placeholder="Enter your Youtube URL for Subscribe" autocomplete="url" /><span class="input-valid" id="source-valid">✓</span></div>
+                <label class="sr-only" for="destination-url">Destination or file URL</label>
+                <div class="builder-input-wrap"><span class="input-icon destination-icon">↗</span><input id="destination-url" type="url" placeholder="Enter destination or file URL link" autocomplete="url" /><span class="input-valid" id="destination-valid">✓</span></div>
+                <button type="submit" class="generate-button">Generate <span>→</span></button>
+                <p class="field-error" id="url-error" role="alert"></p>
+                <div class="form-note"><span class="lock-icon">▣</span> First click opens the sponsor page; second click unlocks your file.</div>
+              </form>
+                <div class="generated-result" id="generated-result" aria-live="polite" hidden>
+                <div class="result-check">✓</div><div class="result-copy"><span class="section-kicker">YOUR LINK IS READY</span><strong id="generated-title">subnest.to/bright-nest</strong><small id="generated-meta">1 action · ready to share</small></div><button class="unlock-link-button" type="button" id="unlock-generated">Open unlock link <span>↗</span></button><button class="copy-button" type="button" id="copy-link">Copy link <span>⧉</span></button><button class="reset-button" type="button" id="reset-form" aria-label="Create another link">↻</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="marquee-strip" aria-label="SubNest benefits"><div class="marquee-track"><span>No ads for your audience</span><i>✦</i><span>No signup required</span><i>✦</i><span>Built for creators</span><i>✦</i><span>Share the good stuff</span><i>✦</i><span>No ads for your audience</span><i>✦</i><span>No signup required</span><i>✦</i></div></section>
+
+        <section class="features-section section-light" id="features">
+          <div class="container">
+            <div class="section-heading centered reveal"><div class="eyebrow"><span class="eyebrow-dot"></span> Why creators choose us</div><h2>Small actions.<br /><span>Big momentum.</span></h2><p>SubNest turns a one-time click into a warmer, more connected audience — without getting in your way.</p></div>
+            <div class="feature-grid">
+              <article class="feature-card feature-card-orange reveal"><div class="feature-icon">✦</div><span class="feature-number">01</span><h3>Easy from the first tap</h3><p>Set up a social unlock in seconds. It is designed to be understood without a tutorial.</p><a href="#builder" class="text-link">Create yours <span>↗</span></a></article>
+              <article class="feature-card feature-card-cream reveal reveal-delay"><div class="feature-icon">◌</div><span class="feature-number">02</span><h3>A better audience experience</h3><p>No ads, no surprise redirects, no clutter. Just a clear exchange between you and your fans.</p><a href="#faq" class="text-link">Learn more <span>↗</span></a></article>
+              <article class="feature-card feature-card-ink reveal reveal-delay-2"><div class="feature-icon">↗</div><span class="feature-number">03</span><h3>Always free to start</h3><p>Build and share your first unlock links today. Keep your focus on the content that matters.</p><a href="#builder" class="text-link text-link-light">Start building <span>↗</span></a></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="faq-section" id="faq">
+          <div class="container faq-layout">
+            <div class="faq-intro reveal"><div class="eyebrow"><span class="eyebrow-dot"></span> We keep it clear</div><h2>Questions,<br /><span>answered.</span></h2><p>Everything you need to know before you invite your audience into the nest.</p><a href="mailto:hello@subnest.co" class="button button-outline">Ask anything <span>↗</span></a></div>
+            <div class="faq-list reveal reveal-delay">
+              <details open><summary><span>What is a social unlock?</span><b>−</b></summary><p>A social unlock is a simple exchange: your audience completes one or more actions you choose — like following or subscribing — before they reach a private link, download or bonus.</p></details>
+              <details><summary><span>Does my audience need an account?</span><b>+</b></summary><p>No. SubNest is designed to keep the experience lightweight. Your audience can follow your chosen action and continue without creating a SubNest account.</p></details>
+              <details><summary><span>Can I use any destination URL?</span><b>+</b></summary><p>Yes. Use a file, video, landing page, newsletter or any destination you own or have permission to share.</p></details>
+              <details><summary><span>Is SubNest free to use?</span><b>+</b></summary><p>Yes. The starter experience is free and ad-free for your audience. We will always be transparent about any future paid features.</p></details>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta-section" id="contact"><div class="cta-shape shape-left"></div><div class="cta-shape shape-right"></div><div class="container cta-inner reveal"><div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> Your audience is waiting</div><h2>Make the next click<br /><em>mean more.</em></h2><p>Build a social unlock and give your community a better reason to show up.</p><a class="button button-light" href="#builder">Create your first link <span>↗</span></a></div></section>
+      </main>
+
+      <footer class="site-footer"><div class="container footer-top"><a class="brand" href="#home"><span class="brand-mark"><img src="/subnest-mark.svg" alt="" /></span><span class="brand-name">Sub<span>Nest</span></span></a><p>Social unlocks for the creators<br />building what is next.</p><div class="footer-links"><div><span>Explore</span><a href="#features">Features</a><a href="#faq">FAQ</a><a href="#builder">Get started</a></div><div><span>Company</span><a href="mailto:hello@subnest.co">Contact us</a><a href="#">Terms</a><a href="#">Privacy</a></div></div></div><div class="container footer-bottom"><span>© 2026 SubNest. Made for the next wave.</span><span>Built with intention <b>✦</b></span></div></footer>
+    </div>
+    <div class="toast" id="toast" role="status"><span>✓</span><span id="toast-text">Link copied to clipboard</span></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
